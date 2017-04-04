@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/microphone.css">
+        <link rel="stylesheet" href="css/microphone-2.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+        <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+    </head>
+    <body>
+
+    <div id="container" class="container">
+
+
+        <!--<div id="swipe-panel">-->
+
+        <!--</div>-->
+
+        <div class="show-buttons microphone-disabled">
+            <button onclick="getWeather(globalPosition)">Weather</button>
+            <button onclick="yamaha()">Yamaha</button>
+
+            <button onclick="currentTime()">Current time</button>
+            <button onclick="getCurrent()">Current Location</button>
+
+            <input type="text" id="hashy" placeholder="hashy">
+            <button onclick="twitterAPI()">Twitter</button>
+
+            <input type="text" id="format">
+            <input type="text" id="videoSource">
+            <button onclick="chromecastAPI()">Send</button>
+        </div>
+
+        <div class="show-microphone microphone-enabled">
+            <!--<div class="bb">-->
+
+            <!--</div>-->
+
+        <div class="view view-active">
+            <div class="plane main">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+
+            <!--<div class="microphone-3">-->
+
+            <!--</div>-->
+        </div>
+
+        <div class="to-be-developed">
+            <button onclick="btConnect()">connect</button>
+
+            <div id="map">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.touchSwipe.min.js"></script>
+    <script src="js/vendor/socket.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/swipe/swipe.js"></script>
+    <script src="js/airplay/airplay.js"></script>
+    <script src="js/location/location.js"></script>
+    <script src="js/weather/weather.js"> </script>
+    <script src="js/amplifier/amplifier.js"></script>
+    <script src="js/socialMedia/twitter/twitter.js"></script>
+    <script src="js/spotify/spotify.js"></script>
+    <script src="js/date/date.js"></script>
+    <script src="js/bt/bluetooth.js"></script>
+    <script src="js/chromecast/chromecast.js"></script>
+    <script src="js/wakeOnLan/wakeOnLan.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0gV3mCaM6MDC5cfGfbtaql3idP0WGomE&callback=initMap" async defer></script>
+    </body>
+</html>
