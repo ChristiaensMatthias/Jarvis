@@ -15,7 +15,7 @@ let socket = io.connect('http://www.localhost:9000');
 
 socket.on('clap-detection.server', function(state) {
     if(state == true){
-
+        amplifier("on");
     }
 });
 
