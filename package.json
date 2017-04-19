@@ -10,16 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "airplay": "0.0.3",
+    "body-parser": "^1.17.1",
+    "clap-detector": "^0.4.1",
     "express": "^4.14.1",
     "mongoose": "^4.8.1",
-    "body-parser": "^1.17.1",
+    "node-wol": "^0.1.1",
+    "socket.io": "^1.7.3",
+    "spotify-web-api-node": "^2.3.6",
     "twitter": "^1.7.0",
     "yamaha-nodejs": "^0.7.6",
-    "socket.io": "^1.7.3",
-    "airplay": "0.0.3",
-    "clap-detector": "^0.4.1",
-    "spotify-web-api-node": "^2.3.6",
-    "node-wol": "^0.1.1"
-
+    "youtube-search": "^1.0.9"
   }
 }

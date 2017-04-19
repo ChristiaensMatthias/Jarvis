@@ -305,6 +305,11 @@ textarea {
 
 body {
     padding: 0;
+    position: relative;
+
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 #container {
@@ -317,12 +322,12 @@ body {
 }
 
 .show-buttons{
-    display: none;
+    display: block;
     z-index: 50;
 }
 
 .show-microphone{
-    display: block;
+    display: none;
     z-index: 50;
 }
 
@@ -346,7 +351,6 @@ img{
     left: -webkit-calc(0%);
     width: 100%;
     height:100vh;
-    background:gray;
     -webkit-transition: all 2s;
     /*this adds GPU acceleration*/
     transform: translate3d(0,0,0);

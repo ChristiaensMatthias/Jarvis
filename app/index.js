@@ -24,6 +24,7 @@ require('./routes/twitter')(app);
 require('./routes/hueLamps')(app);
 // require('./routes/chromecast')(app);
 require('./routes/wakeOnLan')(app);
+require('./routes/youtube')(app);
 
 //STARTING SERVER
 let port = process.env.PORT || 9000;
@@ -32,15 +33,12 @@ let io          = require('socket.io')(server);
 
 console.log('Magic happens on port ' + port);
 
-
-
-
 //LOAD IN SOCKETS
 io.on('connection', function(client){
     let clapConfig = {
         //CLAP CONFIG
         // AUDIO_SOURCE: 'coreaudio', // default for linux
-        DETECTION_PERCENTAGE_START : '50%', // minimum noise percentage threshold necessary to start recording sound
+        DETECTION_PERCENTAGE_START : '10%', // minimum noise percentage threshold necessary to start recording sound
         DETECTION_PERCENTAGE_END: '10%',  // minimum noise percentage threshold necessary to stop recording sound
         // // CLAP_AMPLITUDE_THRESHOLD: 0.7, // minimum amplitude threshold to be considered as clap
         // // CLAP_ENERGY_THRESHOLD: 0.3,  // maximum energy threshold to be considered as clap
@@ -56,7 +54,8 @@ io.on('connection', function(client){
 
     clapDetector.onClaps(2, 1000, function(delay) {
         console.log("clapped 2 times");
-        io.sockets.emit('clap-detection.server', true);
+        let deviceState = {"state": "on"};
+        // io.sockets.emit('clap-detection.server', deviceState);
     });
 
     console.log("connected");

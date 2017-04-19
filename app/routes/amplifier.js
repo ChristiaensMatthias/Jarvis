@@ -3,7 +3,7 @@ let yamaha = new Yamaha();
 
 function amplifier(command){
     // command = mute/unmute
-    console.log(command);
+    console.log("amplifier command", command);
 
     switch(command.state){
         case 'on':
