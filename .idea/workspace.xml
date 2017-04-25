@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b044da-fd37-4e08-bbb3-c502e9e6d7ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/microphone-2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/microphone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/crossdomain.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/css.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/extend.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/faq.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/html.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/misc.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/usage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/microphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/airplay/airplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/amplifier/amplifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bt/bluetooth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/chromecast/chromecast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/date/date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/groceryList/groceryList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/location/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/socialMedia/twitter/twitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/spotify/spotify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/swipe/swipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.touchSwipe.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/socket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/wakeOnLan/wakeOnLan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/weather/weather.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots.txt" afterPath="" />
-    </list>
+    <list default="true" id="f8b044da-fd37-4e08-bbb3-c502e9e6d7ac" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -336,12 +299,12 @@
       <workItem from="1492514476209" duration="9642000" />
       <workItem from="1492630054944" duration="1487000" />
       <workItem from="1493025739341" duration="28096000" />
-      <workItem from="1493132684356" duration="59000" />
+      <workItem from="1493132684356" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147142000" />
+    <option name="totallyTimeSpent" value="147282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1347" height="1122" extended-state="0" />
