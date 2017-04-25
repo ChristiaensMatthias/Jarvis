@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b044da-fd37-4e08-bbb3-c502e9e6d7ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/groceryList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/airplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/amplifier.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/chromecast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/grocery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/hueLamps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/amplifier.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/wakeOnLan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/youtube.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/hueLamps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/groceryList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/airplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/grocery.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,81 +30,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
+            <state relative-caret-position="706">
               <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="microphone.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/microphone.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="microphone-2.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/microphone-2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chromecast.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/chromecast/chromecast.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="115" column="36" lean-forward="false" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
-              <folding>
-                <marker date="1491333280000" expanded="true" signature="548:1083" ph="{...}" />
-                <marker date="1491333280000" expanded="true" signature="574:644" ph="{...}" />
-                <marker date="1491333280000" expanded="true" signature="671:755" ph="{...}" />
-                <marker date="1491333280000" expanded="true" signature="785:878" ph="{...}" />
-                <marker date="1491333280000" expanded="true" signature="903:929" ph="{...}" />
-                <marker date="1491333280000" expanded="true" signature="957:1000" ph="{...}" />
-                <marker date="1491333280000" expanded="true" signature="1037:1081" ph="{...}" />
-                <marker date="1491333280000" expanded="true" signature="1257:1466" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -375,13 +306,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147092000" />
+    <option name="totallyTimeSpent" value="147095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1347" height="1122" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27300152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27300152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -433,27 +364,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/twitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/youtube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/chromecast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/twitter.js" />
+    <entry file="file://$PROJECT_DIR$/app/routes/youtube.js" />
+    <entry file="file://$PROJECT_DIR$/app/routes/chromecast.js" />
     <entry file="file://$PROJECT_DIR$/js/spotify/spotify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -491,13 +404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.js" />
     <entry file="file://$PROJECT_DIR$/js/weather/weather.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -505,13 +412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/twitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/twitter.js" />
     <entry file="file://$PROJECT_DIR$/js/youtube/youtube.js" />
     <entry file="file://$PROJECT_DIR$/js/spotify/spotify.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -563,49 +464,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/hueLamps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/chromecast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/wakeOnLan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/twitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/hueLamps.js" />
+    <entry file="file://$PROJECT_DIR$/app/routes/chromecast.js" />
+    <entry file="file://$PROJECT_DIR$/app/routes/wakeOnLan.js" />
+    <entry file="file://$PROJECT_DIR$/app/routes/twitter.js" />
     <entry file="file://$PROJECT_DIR$/app/routes/twitch.js" />
-    <entry file="file://$PROJECT_DIR$/app/routes/youtube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/amplifier.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/youtube.js" />
+    <entry file="file://$PROJECT_DIR$/app/routes/amplifier.js" />
     <entry file="file://$PROJECT_DIR$/js/vendor/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -613,13 +478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.js" />
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -655,20 +514,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/airplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/groceryList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/airplay.js" />
+    <entry file="file://$PROJECT_DIR$/app/models/groceryList.js" />
     <entry file="file://$PROJECT_DIR$/js/wakeOnLan/wakeOnLan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -687,16 +534,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
-          <folding>
-            <marker date="1491333280000" expanded="true" signature="548:1083" ph="{...}" />
-            <marker date="1491333280000" expanded="true" signature="574:644" ph="{...}" />
-            <marker date="1491333280000" expanded="true" signature="671:755" ph="{...}" />
-            <marker date="1491333280000" expanded="true" signature="785:878" ph="{...}" />
-            <marker date="1491333280000" expanded="true" signature="903:929" ph="{...}" />
-            <marker date="1491333280000" expanded="true" signature="957:1000" ph="{...}" />
-            <marker date="1491333280000" expanded="true" signature="1037:1081" ph="{...}" />
-            <marker date="1491333280000" expanded="true" signature="1257:1466" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -709,21 +547,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/grocery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="60" column="75" lean-forward="false" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.js" />
+    <entry file="file://$PROJECT_DIR$/app/routes/grocery.js" />
     <entry file="file://$PROJECT_DIR$/js/groceryList/groceryList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -735,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,15 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,6 +581,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
           <folding />
         </state>
       </provider>
