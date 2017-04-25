@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/microphone.css">
         <link rel="stylesheet" href="css/microphone-2.css">
+        <link rel="stylesheet" href="css/popup.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
         <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
@@ -45,6 +46,23 @@
 
                 <button onclick="previousVid()">Previous</button>
                 <button onclick="nextVid()">Next</button>
+
+                <input type="text" id="groceryItem">
+                <button onclick="addGroceryItem()">ADD ITEM</button>
+                <button onclick="clearGroceryList()">REMOVE</button>
+                <button onclick="removeGroceryItem()">REMOVE ITEM</button>
+
+                <button id="myBtn">Open Modal</button>
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                      <ul id="groceryList">
+
+                      </ul>
+                  </div>
+                </div>
             </div>
 
             <div class="show-microphone microphone-enabled">
@@ -52,16 +70,16 @@
 
                 <!--</div>-->
 
-                <!--<div class="view view-active">-->
-                    <!--<div class="plane main">-->
-                        <!--<div class="circle"></div>-->
-                        <!--<div class="circle"></div>-->
-                        <!--<div class="circle"></div>-->
-                        <!--<div class="circle"></div>-->
-                        <!--<div class="circle"></div>-->
-                        <!--<div class="circle"></div>-->
-                    <!--</div>-->
-                <!--</div>-->
+                <div class="view view-active">
+                    <div class="plane main">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
 
                 <!--<div class="microphone-3">-->
 
@@ -84,6 +102,7 @@
         <script src="js/vendor/socket.js"></script>
         <script src="js/main.js"></script>
         <script src="js/swipe/swipe.js"></script>
+        <script src="js/groceryList/groceryList.js"></script>
         <script src="js/airplay/airplay.js"></script>
         <script src="js/location/location.js"></script>
         <script src="js/weather/weather.js"> </script>

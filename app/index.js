@@ -2,13 +2,14 @@
 let express         = require('express');
 let app             = express();
 let bodyParser      = require('body-parser');
+let mongoose     = require('mongoose');
 let clapDetector    = require('clap-detector');
 
 
 //SETTING HEADERS
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", 'http://localhost:63343');
-    res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
+    res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
     res.header("Access-Control-Allow-Credentials", "true");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
     next();
@@ -16,6 +17,11 @@ app.use(function(req, res, next) {
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+//LOAD IN MONGOOSE DATA
+
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://localhost:27017/Jarvis");
 
 
 //LOAD IN ROUTES
@@ -25,6 +31,7 @@ require('./routes/hueLamps')(app);
 // require('./routes/chromecast')(app);
 require('./routes/wakeOnLan')(app);
 require('./routes/youtube')(app);
+require('./routes/grocery')(app);
 
 //STARTING SERVER
 let port = process.env.PORT || 9000;

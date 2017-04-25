@@ -19,6 +19,7 @@
     "socket.io": "^1.7.3",
     "spotify-web-api-node": "^2.3.6",
     "twitter": "^1.7.0",
+    "underscore": "^1.8.3",
     "yamaha-nodejs": "^0.7.6",
     "youtube-search": "^1.0.9"
   }
