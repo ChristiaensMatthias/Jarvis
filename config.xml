@@ -15,7 +15,7 @@
     <!-- General preferences -->
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <preference name='phonegap-version' value='cli-6.5.0' />
-    <plugin name="cordova-plugin-crosswalk-webview-pgb-adapt" source="npm" version="1.4.0-dev-5"/>
+    <plugin name="cordova-plugin-crosswalk-webview" source="npm" version="1.4.0-dev-5"/>
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
