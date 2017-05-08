@@ -5,7 +5,7 @@ let groceryUl = document.getElementById("groceryList");
 let span = document.getElementsByClassName("close")[0];
 
 function getGroceries(){
-    let url = "http://localhost:9000/getGroceryList";
+    let url = SERVICE_URI.GETGROCERYLIST;
     $.ajax({
         url: url,
         method: 'GET',
@@ -35,7 +35,7 @@ function addGroceryItem() {
     console.log(groceryItem.value);
     let query = "groceryListItem="+groceryItem.value;
     console.log("query value ",query);
-    let url = "http://localhost:9000/addToGroceryList";
+    let url = SERVICE_URI.ADDGROCERYLIST;
     $.ajax({
         url: url,
         method: 'POST',
@@ -55,7 +55,7 @@ function addGroceryItem() {
 }
 
 function clearGroceryList(){
-    let url = "http://localhost:9000/deleteGroceryList";
+    let url = SERVICE_URI.DELETEGROCERYLIST;
     $.ajax({
         url: url,
         method: 'DELETE',
@@ -75,7 +75,7 @@ function clearGroceryList(){
 }
 
 function removeGroceryItem(){
-    let url = "http://localhost:9000/deleteGroceryItem";
+    let url = SERVICE_URI.DELETEGROCERYITEM;
     let query = "groceryListItem="+groceryItem.value;
     $.ajax({
         url: url,

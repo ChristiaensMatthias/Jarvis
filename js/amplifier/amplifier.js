@@ -1,5 +1,6 @@
+
 function amplifier(state) {
-    let url = "http://localhost:9000/amplifier";
+    let url = SERVICE_URI.AMPLIFIER;
 
     $.ajax({
         url: url,

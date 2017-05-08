@@ -19,7 +19,7 @@ function getFormat(mediaType, videoName){
             }
         });
     }else if(mediaType == "youtube"){
-        youtubeUrl = "http://localhost:9000/ytsearch";
+        youtubeUrl = SERVICE_URI.YOUTUBESEARCH;
         let query = "mediaType="+mediaType+"&videoName="+videoName;
         $.ajax({
             url: youtubeUrl,
