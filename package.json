@@ -16,6 +16,8 @@
     "express": "^4.14.1",
     "mongoose": "^4.8.1",
     "node-wol": "^0.1.1",
+    "os": "^0.1.1",
+    "pkg": "^3.0.1",
     "socket.io": "^1.7.3",
     "spotify-web-api-node": "^2.3.6",
     "twitter": "^1.7.0",

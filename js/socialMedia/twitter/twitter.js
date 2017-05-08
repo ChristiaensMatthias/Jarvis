@@ -5,7 +5,7 @@ function twitterAPI(twitterData) {
     let hashTagData = 'hashtag='+hashTag;
     console.log(hashTagData);
 
-    let url = "http://localhost:9000/twitter";
+    let url = SERVICE_URI.TWITTER;
 
     $.ajax({
         url: url,

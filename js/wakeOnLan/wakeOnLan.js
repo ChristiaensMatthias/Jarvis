@@ -1,5 +1,5 @@
 function wakeOnLan() {
-    let url = "http://localhost:9000/wakeonlan";
+    let url = SERVICE_URI.WAKEONLAN;
     $.ajax({
         url: url,
         method: 'GET',

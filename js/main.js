@@ -11,7 +11,7 @@ function power(){
     }
 }
 
-let socket = io.connect('http://www.localhost:9000');
+let socket = io.connect(SERVICE_URI.SOCKET);
 
 socket.on('clap-detection.server', function(state) {
     console.log("state of clap", state);

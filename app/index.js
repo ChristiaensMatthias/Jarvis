@@ -2,13 +2,27 @@
 let express         = require('express');
 let app             = express();
 let bodyParser      = require('body-parser');
-let mongoose     = require('mongoose');
+let mongoose        = require('mongoose');
 let clapDetector    = require('clap-detector');
+
+os = require('os');
+
+let interfaces = os.networkInterfaces();
+let addresses = [];
+for (let k in interfaces) {
+    for (let k2 in interfaces[k]) {
+        let address = interfaces[k][k2];
+        if (address.family === 'IPv4' && !address.internal) {
+            addresses.push(address.address);
+        }
+    }
+}
+let ipAddress = addresses[0];
 
 
 //SETTING HEADERS
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", 'http://localhost:63343');
+    res.header("Access-Control-Allow-Origin", 'http://' + ipAddress + ':63343');
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
     res.header("Access-Control-Allow-Credentials", "true");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
@@ -21,7 +35,7 @@ app.use(bodyParser.json());
 //LOAD IN MONGOOSE DATA
 
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost:27017/Jarvis");
+mongoose.connect('mongodb://' + ipAddress + ':27017/Jarvis');
 
 
 //LOAD IN ROUTES
@@ -36,7 +50,7 @@ require('./routes/grocery')(app);
 //STARTING SERVER
 let port = process.env.PORT || 9000;
 let server = app.listen(port);
-let io          = require('socket.io')(server);
+let io = require('socket.io')(server);
 
 console.log('Magic happens on port ' + port);
 

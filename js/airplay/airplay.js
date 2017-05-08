@@ -1,5 +1,6 @@
+
 function airPlay(trackUrl) {
-    let url = "http://localhost:9000/airplay";
+    let url = SERVICE_URI.AIRPLAY;
     $.ajax({
         url: url,
         method: 'POST',
