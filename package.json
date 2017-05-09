@@ -13,6 +13,7 @@
     "airplay": "0.0.3",
     "body-parser": "^1.17.1",
     "clap-detector": "^0.4.1",
+    "cordova-plugin-audioinput": "0.3.0",
     "cordova-plugin-crosswalk-webview": "2.3.0",
     "express": "^4.14.1",
     "mongoose": "^4.8.1",

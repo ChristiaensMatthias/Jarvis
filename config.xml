@@ -16,6 +16,7 @@
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <preference name='phonegap-version' value='cli-6.5.0' />
     <plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.3.0"/>
+    <plugin name="cordova-plugin-audioinput" source="npm" version="0.3.0"/>
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
